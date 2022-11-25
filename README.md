@@ -2,5 +2,5 @@
 Практическая работа №6.2 <br />
 **Выполнил Лось Д.В, ИС-402**
 
-![Screenshot](screenshot1.jpg)
+![Screenshot](screenshot1.png)
 
