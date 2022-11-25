@@ -1,0 +1,76 @@
+#!/usr/bin/env python3
+# coding=utf-8
+
+import turtle
+
+t = turtle.Pen()
+t.speed(1500)
+t.color('black', 'red')
+t.left(120)
+t.begin_fill()
+t.circle(40, 80)
+t.circle(120, 160)
+t.circle(130, 120)
+t.circle(70, 100)
+t.end_fill()
+
+t.color('black', '#281500')
+t.left(50)
+t.begin_fill()
+t.circle(140, -70)
+t.left(90)
+t.forward(10)
+t.right(100)
+t.circle(100, 88)
+t.end_fill()
+
+t.up()
+t.goto(220, 0)
+t.down()
+
+t.color('black', 'yellow')
+t.left(260)
+t.begin_fill()
+t.circle(120)
+t.end_fill()
+
+t.left(50)
+t.color('black', '#281500')
+t.left(50)
+t.begin_fill()
+t.circle(140, -70)
+t.left(90)
+t.forward(10)
+t.right(100)
+t.circle(100, 97)
+t.end_fill()
+
+t.up()
+t.circle(100, -48)
+t.left(20)
+t.down()
+t.color('black', 'green')
+t.begin_fill()
+t.circle(100, 100)
+t.left(70)
+t.circle(90, 120)
+t.end_fill()
+
+
+t.up()
+t.circle(-100, 4)
+t.left(-50)
+t.down()
+t.color('black', 'green')
+t.begin_fill()
+t.circle(100, 100)
+t.left(70)
+t.circle(90, 120)
+t.end_fill()
+
+
+t.up()
+t.goto(50, -250)
+t.write("LDV - 9")
+t.goto(100, 0)
+turtle.done()
